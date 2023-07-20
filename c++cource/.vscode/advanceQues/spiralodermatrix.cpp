@@ -28,7 +28,7 @@ int main(){
         }
         column_end--;
         //for row end 
-        for( int col=column_end;col>=column_end;col--){
+        for( int col=column_end;col>=column_start;col--){
             cout<<a[row_end][col]<<" ";
             //row_end--;
         }
